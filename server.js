@@ -2,7 +2,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const bodyParser = require("body-parser");
 const path = require("path");
 require("dotenv").config();
 
@@ -14,18 +13,6 @@ const projectRoutes = require("./Routes/projects");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-//static files access 
-app.use(express.static(path.join(__dirname, './portfolio_frontend/build')));
-
-app.get('*',function(req,res){
-  res.sendFile(path.join(__dirname,'./portfolio_frontend/build/index.html'));
-});
-
 // Connect to MongoDB
 mongoose
   .connect(process.env.MONGO_URI, {
@@ -35,10 +22,41 @@ mongoose
   .then(() => console.log("MongoDB connected successfully"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
-// Use routes
+// Middleware
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// API routes
 app.use("/api/contact", contactRoutes);
 app.use("/api/projects", projectRoutes);
 
+// API health check
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok", message: "API is running" });
+});
+
+// Serve static files in production
+if (process.env.NODE_ENV === "production") {
+  // Serve static files
+  app.use(express.static(path.join(__dirname, "../portfolio_frontend/build")));
+
+  // Handle React routing
+  app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "../portfolio_frontend/build/index.html"));
+  });
+}
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ 
+    status: "error",
+    message: "Something went wrong!" 
+  });
+});
+
+// Start server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
