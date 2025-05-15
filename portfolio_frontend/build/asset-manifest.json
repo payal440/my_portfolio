@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d18d8245.css",
+    "main.js": "/static/js/main.e4b569e5.js",
+    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/payal1_img.jpg": "/static/media/payal1_img.deb3288ff6db72ad0936.jpg",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project-img1.png": "/static/media/project-img1.d593db3f12901bc685c2.png",
+    "static/media/project-img2.png": "/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/project-img3.png": "/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.d18d8245.css.map": "/static/css/main.d18d8245.css.map",
+    "main.e4b569e5.js.map": "/static/js/main.e4b569e5.js.map",
+    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d18d8245.css",
+    "static/js/main.e4b569e5.js"
+  ]
+}
