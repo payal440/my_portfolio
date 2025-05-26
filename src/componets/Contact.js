@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
