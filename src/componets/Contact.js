@@ -199,14 +199,6 @@ const Contact = () => {
                         <p>+91 8849733281</p>
                       </div>
                     </div>
-                    <div className="social-icons">
-                      <a href="https://www.linkedin.com/in/payal-malakar-a100b8327" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedinIn} />
-                      </a>
-                      <a href="https://github.com/PAYAL440" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} />
-                      </a>
-                    </div>
                   </div>
                 </div>
               )}
