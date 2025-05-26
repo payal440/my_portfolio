@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/project-img2.png";
+import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/project-img3.png";
 
 export const Projects = () => {
@@ -18,12 +18,12 @@ export const Projects = () => {
       category: "web"
     },
     {
-      title: "Project Name 2",
-      description: "Description of your second project. Explain what problem it solves and what technologies you used.",
+      title: "Event Management System",
+      description: "A comprehensive event management platform that helps organizers plan, schedule, and manage events efficiently. Features include registration, ticketing, and attendee management.",
       imgUrl: projImg2,
       tech: ["JavaScript", "HTML5", "CSS3"],
-      githubUrl: "https://github.com/yourusername/project2",
-      liveUrl: "https://project2.com",
+      githubUrl: "https://github.com/payal440/mern_stack_event_management",
+      liveUrl: "https://eventmangament.netlify.app/",
       category: "mobile"
     },
     {

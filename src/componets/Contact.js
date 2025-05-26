@@ -178,7 +178,7 @@ const Contact = () => {
                       </div>
                       <div className="info-content">
                         <h4>Location</h4>
-                        <p>Rameshwar Nagar, surat, India</p>
+                        <p> SURAT , GUJARAT </p>
                       </div>
                     </div>
                     <div className="info-item">

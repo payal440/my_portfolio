@@ -11,7 +11,7 @@ export const Experience = () => {
     {
       type: "work",
       year: "2022 - Present",
-      title: "Full Stack Developer",
+      title: "Full Stack web Developer",
       organization: "Tech Solutions Inc.",
       description: "Leading development of enterprise web applications using React, Node.js, and modern cloud technologies.",
       skills: ["React", "Node.js", "AWS", "MongoDB"],
@@ -40,10 +40,10 @@ export const Experience = () => {
     {
       type: "work",
       year: "2021 - 2023",
-      title: "Frontend Developer",
+      title: "Frontend web Developer",
       organization: "Digital Innovations",
       description: "Developed responsive web applications using modern JavaScript frameworks",
-      skills: ["JavaScript", "React", "Redux", "CSS3"],
+      skills: ["JavaScript", "React", "Express", "tailwindcss"],
       achievements: [
         "Developed 10+ client projects",
         "Reduced load time by 50%",
