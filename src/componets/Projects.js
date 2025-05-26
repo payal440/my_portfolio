@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/img.png";
 import projImg3 from "../assets/project-img3.png";
 
 export const Projects = () => {
