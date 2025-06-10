@@ -23,7 +23,7 @@ export const Projects = () => {
       imgUrl: projImg2,
       tech: ["JavaScript", "HTML5", "CSS3"],
       githubUrl: "https://github.com/payal440/mern_stack_event_management",
-      liveUrl: "https://eventmangament.netlify.app/",
+      liveUrl: "https://eventmangamentsystem.netlify.app/",
       category: "mobile"
     },
     {
