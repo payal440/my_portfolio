@@ -24,9 +24,10 @@ export const Skills = () => {
 
   const skills = [
     { name: "Web Development", percentage: "90%" },
-    { name: "UI/UX Design", percentage: "85%" },
+    { name: "node.js", percentage: "85%" },
     { name: "React JS", percentage: "80%" },
-    { name: "Backend Development", percentage: "75%" }
+    { name: "MongoDb", percentage: "80%" },
+    { name: "Express.js", percentage: "80%" }
   ];
 
   return (
