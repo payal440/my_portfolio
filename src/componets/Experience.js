@@ -9,14 +9,15 @@ import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
 export const Experience = () => {
   const experiences = [
     {
-      type: "work",
-      year: "2022 - Present",
+      type: "Internship",
+      month: "December 2024 - may 2025",
+      year: "2024 - 2025",
       title: "Full Stack web Developer",
-      organization: "Tech Solutions Inc.",
+      organization: "codeBrain infotech",
       description: "Leading development of enterprise web applications using React, Node.js, and modern cloud technologies.",
-      skills: ["React", "Node.js", "AWS", "MongoDB"],
+      skills: ["React", "Node.js", "Express.js", "MongoDB"],
       achievements: [
-        "Improved application performance by 40%",
+        "Improved application performance by 80%",
         "Led a team of 5 developers",
         "Implemented CI/CD pipeline"
       ],
@@ -24,8 +25,24 @@ export const Experience = () => {
       color: "purple"
     },
     {
+      type: "work",
+      month: "june 2025 - peresent",
+      year: "2024 - peresent",
+      title: "Full Stack web Developer",
+      organization: "codeBrain infotech",
+      description: "Working as a Full Stack Developer, building and maintaining scalable web applications",
+      skills: ["React", "Node.js", "Express.js", "MongoDB"],
+      achievements: [
+        "Implemented new features and optimized existing modules",
+    "Enhanced application performance and user experience",
+    "Collaborated with cross-functional teams to deliver projects"
+      ],
+      icon: <BsCodeSlash />,
+      color: "purple"
+    },
+    {
       type: "education",
-      year: "2022 - 2024",
+      year: "2023 - 2025",
       title: "Master of Computer Applications",
       organization: "UKA TARASADIA UNIVERCITY",
       description: "Specializing in Advanced Web Technologies and Cloud Computing",
@@ -37,21 +54,6 @@ export const Experience = () => {
       icon: <FaGraduationCap />,
       color: "blue"
     },
-    {
-      type: "work",
-      year: "2021 - 2023",
-      title: "Frontend web Developer",
-      organization: "Digital Innovations",
-      description: "Developed responsive web applications using modern JavaScript frameworks",
-      skills: ["JavaScript", "React", "Express", "tailwindcss"],
-      achievements: [
-        "Developed 10+ client projects",
-        "Reduced load time by 50%",
-        "Mentored junior developers"
-      ],
-      icon: <BsBriefcaseFill />,
-      color: "pink"
-    }
   ];
 
   return (
