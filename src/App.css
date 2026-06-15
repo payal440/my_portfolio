@@ -613,6 +613,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 32px;
+  margin-bottom: 20px;
   position: relative;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -670,6 +671,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .experience-details {
@@ -718,6 +720,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .skill-tag {
